@@ -122,5 +122,6 @@ public class RubyMove : MonoBehaviour
         finishLevel.Play();
         await Task.Delay(1000);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        await Console.Out.WriteLineAsync("Hello world");
     }
 }
