@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    internal class DemoClass
+    internal class NewClass1
     {
     }
 }
